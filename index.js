@@ -6,6 +6,6 @@ app.get("/", (req, res) => {
   res.status(200).json("Salem louled");
 });
 
-module.exports = app.listen(process.env.PORT || 4000, () =>
-  console.log(`Running on http://localhost:4000`)
+module.exports = app.listen(process.env.PORT || 5000, () =>
+  console.log(`Running on http://localhost:5000`)
 );
